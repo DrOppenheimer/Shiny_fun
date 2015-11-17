@@ -161,6 +161,7 @@ shinyServer(function(input, output) {
 
         
         if(colorby == "Population"){
+            cols <- rep("blue", length = 41)
             cols[tsi] <- tsicol
             cols[fin] <- fincol
             cols[ceu] <- ceucol 
@@ -171,6 +172,7 @@ shinyServer(function(input, output) {
             })
         }
         else if(colorby == "Performer"){
+            cols <- rep("blue", length = 41)
             cols[lumc]     <- lumccol
             cols[unige]    <- unigecol   
             cols[icmb]     <- icmbcol     
