@@ -10,7 +10,7 @@ git clone https://github.com/DrOppenheimer/
 # Start R
 # Go to the GEUVADIS directory in the repository
 # from R prompt
-setwd("~/git/Shiny_fun/GEUVADIS")
+setwd("~/git/Shiny_fun/GEUVADIS/GEUVADIS.2-2-16")
 #  Run this command
 runApp("./")
 # That's it -- R may complain if you need to install requisite packages
