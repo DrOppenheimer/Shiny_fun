@@ -4,8 +4,7 @@ LUAD vs LUSC from TCGA EXAMPLE:
 
 # Clone this repository (example assumes that you clone into a directory called ~/git/).
 # From shell"
-cd  ~/git
-git clone https://github.com/DrOppenheimer/
+https://github.com/DrOppenheimer/Shiny_fun.git
 # Start R
 R
 # Go to the GEUVADIS directory in the repository
