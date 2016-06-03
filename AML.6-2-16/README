@@ -1,0 +1,13 @@
+# This is an example that uses several hundred samples to examine AML and LAML
+
+# Clone this repository (example assumes that you clone into a directory called ~/git/).
+# From shell"
+https://github.com/DrOppenheimer/Shiny_fun.git
+# Start R
+R
+# Go to the GEUVADIS directory in the repository
+# from R prompt
+setwd("./Shiny_fun/AML.6-2-16")
+#  Run this command
+runApp("./")
+# That's it -- R may complain if you need to install requisite packages
